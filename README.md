@@ -122,17 +122,3 @@ FlightPriceInsights/
 |   `-- flight_price.xlsx  # Original input, unchanged
 `-- docs/images/           # Six regenerated figures
 ```
-
-## Scope and limitations
-
-The data covers part of 2019 and has undocumented provenance and currency. Dataset record counts do not establish total flights, passenger demand, or peak travel seasons. Airline, route, service class, and date differences can confound comparisons. Small groups require caution; there is no causal analysis, predictive model, live API, or current booking recommendation.
-
-## Can this go on my resume?
-
-**Yes—as an exploratory data analysis project.** The corrected notebook runs reproducibly and demonstrates data validation, aggregation, visualization, and interpretation. Describe your own contributions accurately and be prepared to explain the corrections and limitations.
-
-Suggested bullet:
-
-> Analyzed 10,683 flight-price records with pandas, NumPy, Seaborn, and Matplotlib; validated date and stop-count transformations and compared airfare distributions using reproducible notebook workflows.
-
-For a stronger portfolio entry, document the original dataset source and currency, justify the duplicate policy, and investigate route/class differences before making broader pricing claims. Do not describe this as a trained prediction model.
